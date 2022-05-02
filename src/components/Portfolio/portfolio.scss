@@ -1,0 +1,103 @@
+.portfolio{
+    margin-bottom: 6rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    .h4{
+        font-weight: bold;
+        width: 12rem;
+        font-size: 25px;
+        color: #fff;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #6ebcf0;
+        margin-bottom: 2rem;
+        
+    }
+    .row{
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        
+            
+        
+        .box{
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            margin: 10px;
+            position: relative;
+            transition: all .5s ease-in-out ;
+            img{
+                width: 25rem;
+            }
+
+            .shadow{
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                flex-direction: column;
+                position: absolute;
+                width: 25rem;
+                height: 14.1rem;
+                background-color:rgb(0, 0, 0, .9);
+                top:0;
+                visibility: hidden;
+                transition:  .4s ease-in-out ;
+                
+
+                .title{
+                    font-size: 20px;
+                    color:#fff;
+                    font-weight: bold;
+                }
+                .btns{
+                    display: flex;
+
+                    a{
+                        padding: 5px 20px;
+                        display: flex;
+                        align-items:center;
+                        justify-content: center;
+                        border-radius:50px;
+                        border: 2px solid green;
+                        text-decoration: none;
+                        color:#fff;
+                        margin-right: 1rem;
+                        margin-top: 1.5rem;
+                        &:hover{
+                            background-color:green;
+                            color:#fff;
+                            transition: all .4s ease;
+                        }
+                    }
+                }
+
+            }
+            &:hover .shadow{
+                visibility: visible;
+                transition: all .5s ease ;
+            }
+        }
+    }
+    
+}
+
+
+@media (max-width:992px){
+    .portfolio{
+        .row{
+            .box{
+                margin: 10px;
+                img{
+                    width: 20rem;
+                }
+                .shadow{
+                    width: 20rem;
+                    height: 11.5rem;
+                }
+            }
+        }
+    }
+}
