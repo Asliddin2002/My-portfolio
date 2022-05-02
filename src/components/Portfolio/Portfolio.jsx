@@ -73,7 +73,7 @@ const Portfolio = () => {
                     <div className="shadow">
                         <div className="title">Portfolio-app</div>
                         <div className="btns">
-                            <a href="#">kod</a>
+                            <a href="https://github.com/Asliddin2002/My-portfolio">kod</a>
                             <a href="#">demo</a>
                         </div>
                     </div>
