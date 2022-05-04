@@ -69,12 +69,12 @@ const Portfolio = () => {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4 ">
                 <div className="box">
-                    <img src={require("../assets/portfolio.jpg")} alt="" />
+                    <img src={require("../assets/redux.jpg")} alt="" />
                     <div className="shadow">
-                        <div className="title">Portfolio-app</div>
+                        <div className="title">Redux-toolkit-app</div>
                         <div className="btns">
-                            <a href="https://github.com/Asliddin2002/My-portfolio">kod</a>
-                            <a href="#">demo</a>
+                            <a href="https://github.com/Asliddin2002/Redux-toolkit-project">kod</a>
+                            <a href="https://khoas-redux-toolkit-project.vercel.app/">demo</a>
                         </div>
                     </div>
                 </div>
