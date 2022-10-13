@@ -42,6 +42,10 @@ const Qualification = () => {
                 <img src={require('./assets/Redux.png')} alt="Redux Js" />
                 <p>Redux JS</p>
             </div>
+            <div className="skill">
+                <img src={require('./assets/vue.png')} alt="Redux Js" />
+                <p>Vue JS</p>
+            </div>
             
             </Carousel>
 

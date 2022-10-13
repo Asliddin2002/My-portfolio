@@ -33,6 +33,17 @@ const Portfolio = () => {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4 ">
                 <div className="box">
+                    <img src={require("../assets/commercial.jpg")} alt="" />
+                    <div className="shadow">
+                        <div className="title">Commercial app</div>
+                        <div className="btns">
+                            <a href="https://github.com/Asliddin2002/house-market-app">kod</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-4 ">
+                <div className="box">
                     <img src={require("../assets/admin-panel.jpg")} alt="" />
                     <div className="shadow">
                         <div className="title">admin-panel</div>
